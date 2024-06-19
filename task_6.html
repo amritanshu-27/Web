@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic and Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Explore My Dynamic Webpage</h1>
+    <p>This is a responsive webpage enhanced with JavaScript for an interactive experience.</p>
+    <h2>About the Creator</h2>
+    <p>I am a web developer passionate about building engaging and dynamic websites.</p>
+    <h2>Interests and Activities</h2>
+    <p>My hobbies include coding, reading, and exploring the outdoors.</p>
+    <button id="colorButton">Change Background Color</button>
+    <h2>Latest Posts from JSONPlaceholder</h2>
+    <div id="posts"></div>
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <img src="image.jpg" alt="Image">
+    <script src="script.js"></script>
+</body>
+</html>
